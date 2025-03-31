@@ -9,7 +9,7 @@ from reportlab.pdfgen import canvas
 from usage_tracker import load_user_plan, increment_usage, is_usage_exceeded
 from ocr_utils import extract_text_from_image
 from gpt_module import gpt_fix_ocr_text
-from apt_parser.py import parse_text_v2
+from apt_parser import parse_text_v2
 
 st.set_page_config(page_title="아파트 값지 평가", layout="centered")
 st.info("🚀 처음 접속 시 앱이 깨어나는 데 약 10초 정도 걸리는 것을 걸린다. 조금만 기다리세요 😊")
