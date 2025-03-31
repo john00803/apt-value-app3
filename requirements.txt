@@ -1,0 +1,7 @@
+streamlit
+pandas
+openai
+Pillow
+reportlab
+numpy
+google-cloud-vision==3.10.1
